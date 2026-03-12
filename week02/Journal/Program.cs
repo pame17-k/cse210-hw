@@ -1,3 +1,7 @@
+// Future idea: Save journal entries in JSON format.
+// Future idea: Add reminders to encourage daily journaling.
+
+
 using System;
 using System.Data;
 
