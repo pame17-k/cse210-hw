@@ -1,9 +1,24 @@
+//This program can be enriched with gamification elements
+// to motivate the user while achieving their goals:
+
+// - Level system: the player levels up each time they
+// reach a certain accumulated score (e.g., every 1000 points).
+
+// - Badges or achievements: award "badges" for completing specific goals, such as:
+// * "Consistency": log an EternalGoal for 7 consecutive days.
+// * "Goal achieved": complete 5 SimpleGoals.
+// * "Checklist Master": finish 3 Checklist-type goals.
+
 using System;
 
-class Program
+namespace EternalQuest
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        static void Main(string[] args)
+        {
+            GoalManager manager = new GoalManager();
+            manager.Start();
+        }
     }
 }
